@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu Registros</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="calendario/tcal.js"></script>
+	<link rel="stylesheet" type="text/css" href="calendario/tcal.css"/>
+	<script type="text/javascript" src="js/expresiones_regulares.js"></script>
+	<script type="text/javascript" src="js/validacion_gerente.js"></script>
+</head>
+<body>
+	<br><br>
+	<header>
+		<h1>Registro y llenado de datos </h1>
+		<a href="../index.html" class="casita"><img src="imagenes/home.png" class="tamaño"></a>
+	</header>
+	<nav id="principal">Menu principal
+		<div id="menu">
+			<ul>
+				<li class="nivel1">
+					<a href="formulario_asistente_comercial.html" class="nivel1">Asistente Comercial</a>
+				</li>
+				<li class="nivel1">
+					<a href="formulario_gerente_comercial.html" class="nivel1">Gerente Comercial</a>
+				</li>
+				<li class="nivel1">
+					<a href="formulario_constructora.html" class="nivel1">Constructora</a>
+				</li>
+				<li class="nivel1">
+					<a href="formulario_asesores.html" class="nivel1">Asesores</a>
+				</li>
+				<li class="nivel1">
+					<a href="formulario_horarios_asesores.html" class="nivel1">Horarios asesores</a>
+				</li>
+				<li class="nivel1">
+					<a href="formulario_funciones.html" class="nivel1">Funciones</a>
+				</li>
+				<li class="nivel1">
+					<a href="formulario_clientes.html" class="nivel1">Clientes</a>
+				</li>
+				<li class="nivel1">
+					<a href="formulario_clientes_trabajos.html" class="nivel1">Clientes-trabajos</a>
+				</li>
+				<li class="nivel1">
+					<a href="formulario_tipos_inmuebles.html" class="nivel1">Tipos Inmuebles</a>
+				</li>
+				<li class="nivel1">
+					<a href="formulario_inmuebles.html" class="nivel1">Inmuebles</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<br><br>
+
+	<section id="columna">
+		<header id="subtitulo2">Gerente Comercial</header>
+		<form name="formu" action="formulario_gerente_comercial.php" method="post">
+					<div>
+					<p>
+						(*)Fecha Inicio<br>
+						<input type="text" name="fecha_inicio" class="tcal" value="">
+					</p>
+					<p>
+						(*)Fecha Fin<br>
+						<input type="text" name="fecha_fin" class="tcal" value="">
+					</p>
+					<p>
+						(*)Nombres:<br><input type="text" size="20" name="nombres" maxlength="30" onkeyup="this.value=this.value.toUpperCase()">
+					</p>
+					<p>
+						(*)Apellidos:<br><input type="text" size="20" name="apellidos" maxlength="30" onkeyup="this.value=this.value.toUpperCase()">
+					</p>
+					<p>
+						(*)Email:<br><input type="email" name="email" size="25" placeholder="xxxxxxxxxx@gmail.com" onkeyup="this.value=this.value.toUpperCase()">
+					</p>
+					<p>
+						(*)Salario:<br><input type="text" size="20" name="salario" maxlength="15">
+					</p>
+			<br>
+			<div class="ubi_boton">
+					<input type="button" value="GUARDAR" class="boton" onclick="validar()">
+					<input type="reset" value="BORRAR" class="boton">
+			</div>
+				(*) DATOS OBLIGATORIOS
+			</div>
+		</form>
+	</section>
+</body>
+</html>

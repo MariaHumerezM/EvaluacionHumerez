@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu Registros</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="js/expresiones_regulares.js"></script>
+	<script type="text/javascript" src="js/validacion_clientes.js"></script>
+</head>
+<body>
+	<br><br>
+	<header>
+		<h1>Registro y llenado de datos</h1>
+		<a href="../index.html" class="casita"><img src="imagenes/home.png" class="tamaño"></a>
+	</header>
+		<nav id="principal">Menú principal
+		<div id="menu">
+			<ul>
+				<li class="nivel1">
+					<a href="formulario_asistente_comercial.html" class="nivel1">Asistente Comercial</a>
+				</li>
+				<li class="nivel1">
+					<a href="formulario_gerente_comercial.html" class="nivel1">Gerente Comercial</a>
+				</li>
+				<li class="nivel1">
+					<a href="formulario_constructora.html" class="nivel1">Constructora</a>
+				</li>
+				<li class="nivel1">
+					<a href="formulario_asesores.html" class="nivel1">Asesores</a>
+				</li>
+				<li class="nivel1">
+					<a href="formulario_horarios_asesores.html" class="nivel1">Horarios asesores</a>
+				</li>
+				<li class="nivel1">
+					<a href="formulario_funciones.html" class="nivel1">Funciones</a>
+				</li>
+				<li class="nivel1">
+					<a href="formulario_clientes.html" class="nivel1">Clientes</a>
+				</li>
+				<li class="nivel1">
+					<a href="formulario_clientes_trabajos.html" class="nivel1">Clientes-trabajos</a>
+				</li>
+				<li class="nivel1">
+					<a href="formulario_tipos_inmuebles.html" class="nivel1">Tipos Inmuebles</a>
+				</li>
+				<li class="nivel1">
+					<a href="formulario_inmuebles.html" class="nivel1">Inmuebles</a>
+				</li>
+			</ul>
+		</div>
+		</nav>
+		<br><br>
+		<section id="columna">
+			<header id="subtitulo2">Clientes</header>
+				<form name="formu">
+					<div>
+						<p>
+							(*)Nombres:<br><input type="text" size="20" name="nombres" maxlength="30" onkeyup="this.value=this.value.toUpperCase()">
+						</p>
+						<p>
+							(*)Apellidos:<br><input type="text" size="20" name="apellidos" maxlength="30" onkeyup="this.value=this.value.toUpperCase()">
+						</p>
+						<p>
+							(*)Telefono:<br><input type="number" size="20" name="telefono" maxlength="20" onkeyup="this.value=this.value.toUpperCase()">
+						</p>
+						<p>
+							(*)Escala Laboral:<br><input type="number" size="20" name="escala_laboral" maxlength="15">
+						</p>
+						<p>
+							(*)Descripcion:<br><textarea name="descripcion" rows="10" cols="25" onkeyup="this.value=this.value.toUpperCase()"></textarea >
+						</p>
+						<p>
+							(*)Asesor:<br>
+							<select name="asesor">
+								<option value="">-Seleccione-</option>
+								<option value="a">Jose Zeballos</option>
+								<option value="b">Lorena Alvarez</option>
+								<option value="c">Juan Colodro</option>
+								<option value="d">Eliana Cisneros</option>
+							</select>
+						</p>
+						<br>
+						<div class="ubi_boton">
+							<input type="button" value="GUARDAR" class="boton" onclick="validar()">
+							<input type="reset" value="BORRAR" class="boton">
+						</div>
+						(*) DATOS OBLIGATORIOS			
+					</div>
+				</form>
+			
+		</section>
+
+</body>
+</html>

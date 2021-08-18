@@ -1,0 +1,110 @@
+/*Estilo para todo el documento*/
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0;
+}
+
+body {
+  background: url(../imagenes/davinci.jpeg) no-repeat center center fixed; /*Color de fondo de la pagina*/
+  background-size: cover;
+  font-family: Verdana, Arial, Helvetica, sans-serif; /*Tipo de letra del cuerpo*/
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#principal {
+  width: 144px;
+  color: #fff; /*Color de la letra de Menu principal*/
+  background-color: #FA8072; /*Color de fondo del boton donde esta Menu Principal*/
+  border: solid 1px #fff; /*Color de borde*/
+  padding: 8px;
+  position: absolute;
+  margin: 20px;
+  font-size: 0.9em;
+  text-align: center;
+  cursor: pointer;
+}
+#principal:hover {background-color: #FFA07A;/*Color al pasar por el boton*/}
+
+#principal:hover #menu {display: block;}
+
+#menu {
+  text-align: center;
+  font-size: 0.85em;
+  width: 320px;
+  display: none;
+  position: relative;
+  padding-top: 10px;
+  left: -9px;
+  margin-bottom: -10px;
+}
+#menu ul {
+  list-style-type: none;
+  border: 0;
+}
+#menu ul li.nivel1 { width: 162px; }
+#menu ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  background-color: #FFE4C4;
+  border: solid 1px #fff;
+  border-top: none;
+  padding: 8px;
+  position: relative;
+}
+#menu ul li:hover {
+  position: relative;
+  background-color: #E9967A;
+  color: #000;
+}
+#menu ul li a:hover, #menu ul li:hover a.nivel1 {
+  background-color: #FFA07A;
+  color: #000;
+  position: relative;
+}
+#menu ul li a.nivel1 {
+  display: block!important;
+  display: none;
+  position: relative;
+}
+
+#columna {
+  margin-right: 400px;
+  float: right;
+  width: 33%;
+  text-align: justify;
+  color: #000; /*Color de la letra del formulario*/
+  border: solid 3px gray;
+  background-color: #FFE4C4;
+}
+
+#subtitulo2 { /*Caracteristicas de los subtitulos por ej formulario 1*/
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 25px;
+  color: #000;
+}
+
+.ubi_boton{
+  width: 450px;
+  height: 30px;
+  margin-left: 80px;
+
+}
+.boton{
+  border-radius: 17px;
+  font-weight: bold;
+  width: 90px;
+  height: 25px;
+}
+.casita{
+  float:right;
+  width: 250px;
+  height: 250px;
+
+}
+.tamaño{
+  width: 70px;
+  height: 70px;
+}
