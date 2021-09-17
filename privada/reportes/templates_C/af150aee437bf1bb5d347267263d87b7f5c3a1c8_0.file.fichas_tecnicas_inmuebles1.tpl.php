@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.36, created on 2021-08-10 01:47:42
+/* Smarty version 3.1.36, created on 2021-09-16 20:34:24
   from 'C:\wamp64\www\sis_constructora\privada\reportes\templates\fichas_tecnicas_inmuebles1.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.36',
-  'unifunc' => 'content_6111dabe9cd994_72459045',
+  'unifunc' => 'content_6143aa502eb143_27488363',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6111dabe9cd994_72459045 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6143aa502eb143_27488363 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>

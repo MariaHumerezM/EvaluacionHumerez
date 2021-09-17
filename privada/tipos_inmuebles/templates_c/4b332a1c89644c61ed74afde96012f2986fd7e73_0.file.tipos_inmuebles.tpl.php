@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.36, created on 2021-07-02 01:22:32
+/* Smarty version 3.1.36, created on 2021-09-17 21:08:04
   from 'C:\wamp64\www\sis_constructora\privada\tipos_inmuebles\templates\tipos_inmuebles.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.36',
-  'unifunc' => 'content_60de6a583c0f24_93465965',
+  'unifunc' => 'content_614503b49b39b9_38361036',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_60de6a583c0f24_93465965 (Smarty_Internal_Template $_smarty_tpl) {
+function content_614503b49b39b9_38361036 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.36, created on 2021-08-10 01:36:03
+/* Smarty version 3.1.36, created on 2021-09-16 20:33:00
   from 'C:\wamp64\www\sis_constructora\privada\reportes\templates\rpt_inmuebles_dormitorios.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.36',
-  'unifunc' => 'content_6111d803b1b402_70605162',
+  'unifunc' => 'content_6143a9fc5a8cb0_10445622',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f77da5fb4909286d7d98d32c71a88a39fc0b1a1d' => 
     array (
       0 => 'C:\\wamp64\\www\\sis_constructora\\privada\\reportes\\templates\\rpt_inmuebles_dormitorios.tpl',
-      1 => 1628558520,
+      1 => 1628560616,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6111d803b1b402_70605162 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6143a9fc5a8cb0_10445622 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="esp">
 <head>

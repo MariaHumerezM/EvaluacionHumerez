@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.36, created on 2021-08-05 20:32:35
+/* Smarty version 3.1.36, created on 2021-09-16 21:37:02
   from 'C:\wamp64\www\sis_constructora\privada\reportes\templates\fichas_tecnicas_personas.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.36',
-  'unifunc' => 'content_610c4ae319f840_73981032',
+  'unifunc' => 'content_6143b8feb4a1e8_20249724',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_610c4ae319f840_73981032 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6143b8feb4a1e8_20249724 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="esp">
 <head>
